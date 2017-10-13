@@ -1,0 +1,49 @@
+﻿Build started 9/11/2017 6:25:29 PM.
+     1>Project "C:\Users\umfehr44.ENG\Desktop\Micromirror Project\GloryofPakistan\VisualStudio\linking\linking\linking.vcxproj" on node 2 (Build target(s)).
+     1>Midl:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\midl.exe /W1 /nologo /char signed /env win32 /h "ILVDataInterface_h.h" /tlb "Debug\linking.tlb" ILVDataInterface.idl 
+         Processing .\ILVDataInterface.idl
+         ILVDataInterface.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.0\Include\um\unknwn.idl
+         unknwn.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.0\Include\shared\wtypes.idl
+         wtypes.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.0\Include\shared\wtypesbase.idl
+         wtypesbase.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.0\Include\shared\basetsd.h
+         basetsd.h
+         Processing C:\Program Files (x86)\Windows Kits\8.0\Include\shared\guiddef.h
+         guiddef.h
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\midl.exe /W1 /nologo /char signed /env win32 /h "ILVTypeInterface_h.h" /tlb "Debug\linking.tlb" ILVTypeInterface.idl 
+         Processing .\ILVTypeInterface.idl
+         ILVTypeInterface.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.0\Include\um\unknwn.idl
+         unknwn.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.0\Include\shared\wtypes.idl
+         wtypes.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.0\Include\shared\wtypesbase.idl
+         wtypesbase.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.0\Include\shared\basetsd.h
+         basetsd.h
+         Processing C:\Program Files (x86)\Windows Kits\8.0\Include\shared\guiddef.h
+         guiddef.h
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LINKING_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt code.cpp
+         code.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LINKING_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt ILVDataInterface_i.c ILVTypeInterface_i.c
+         ILVTypeInterface_i.c
+         ILVDataInterface_i.c
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\umfehr44.ENG\Desktop\Micromirror Project\GloryofPakistan\VisualStudio\linking\Debug\linking.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\umfehr44.ENG\Desktop\Micromirror Project\GloryofPakistan\VisualStudio\linking\Debug\linking.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\umfehr44.ENG\Desktop\Micromirror Project\GloryofPakistan\VisualStudio\linking\Debug\linking.lib" /MACHINE:X86 /DLL Debug\code.obj
+         Debug\ILVDataInterface_i.obj
+         Debug\ILVTypeInterface_i.obj
+         labview.lib
+         labviewv.lib
+            Creating library C:\Users\umfehr44.ENG\Desktop\Micromirror Project\GloryofPakistan\VisualStudio\linking\Debug\linking.lib and object C:\Users\umfehr44.ENG\Desktop\Micromirror Project\GloryofPakistan\VisualStudio\linking\Debug\linking.exp
+         linking.vcxproj -> C:\Users\umfehr44.ENG\Desktop\Micromirror Project\GloryofPakistan\VisualStudio\linking\Debug\linking.dll
+     1>Done Building Project "C:\Users\umfehr44.ENG\Desktop\Micromirror Project\GloryofPakistan\VisualStudio\linking\linking\linking.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:41.60
